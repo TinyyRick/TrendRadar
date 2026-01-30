@@ -198,7 +198,7 @@ ai:
   model: "qwen-long-latest"                # 你的模型
 
   # 你的阿里云完整 endpoint
-  base_url: "https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions"
+  base_url: "https://dashscope.aliyuncs.com/compatible-mode/v1"
   
   timeout: 90                       # 请求超时（秒）
 
