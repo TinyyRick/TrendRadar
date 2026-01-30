@@ -193,9 +193,9 @@ storage:
 ai:
   # --- 这里完全保留了你的 Qwen 配置 ---
   provider: "custom"                # 你的设置
-  api_key: "你的sk-开头的API_KEY"      # 你的 Key (请确认此处)
+  api_key: ""      # 你的 Key (请确认此处)
 
-  model: "qwen-plus"                # 你的模型
+  model: "qwen-long-latest"                # 你的模型
 
   # 你的阿里云完整 endpoint
   base_url: "https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions"
