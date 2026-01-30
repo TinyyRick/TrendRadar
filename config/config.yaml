@@ -195,10 +195,11 @@ ai:
   provider: "custom"                # 你的设置
   api_key: ""      # 你的 Key (请确认此处)
 
-  model: "qwen-long-latest"                # 你的模型
+# ⚠️ 关键点：将 qwen-long-latest 改为官方标准 ID: qwen-long
+  model: "qwen-long"         
 
-  # 你的阿里云完整 endpoint
-  base_url: "https://dashscope.aliyuncs.com/compatible-mode/v1"
+  # ⚠️ 根据你程序的反馈，这里必须保持完整路径
+  base_url: "https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions"
   
   timeout: 90                       # 请求超时（秒）
 
@@ -229,7 +230,7 @@ ai_analysis:
 # 10. AI 翻译功能 (作者新增模块)
 # ===============================================================
 ai_translation:
-  enabled: false                    # 默认关闭，你可以手动改为 true
+  enabled: true                    # 默认关闭，你可以手动改为 true
   language: "English"
   prompt_file: "ai_translation_prompt.txt"
 
