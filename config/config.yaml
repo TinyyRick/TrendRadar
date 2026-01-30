@@ -196,7 +196,7 @@ ai:
   api_key: ""      # 你的 Key (请确认此处)
 
 # ⚠️ 关键点：将 qwen-long-latest 改为官方标准 ID: qwen-long
-  model: "qwen-long"         
+  model: "qwen-max"         
 
   # ⚠️ 根据你程序的反馈，这里必须保持完整路径
   base_url: "https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions"
