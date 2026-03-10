@@ -195,7 +195,7 @@ ai:
   provider: "custom"                # 你的设置
   api_key: ""      # 你的 Key (请确认此处)
 
-  model: "deepseek-ai/DeepSeek-R1"         
+  model: "Pro/deepseek-ai/DeepSeek-V3"         
 
   # ⚠️ 根据你程序的反馈，这里必须保持完整路径
   base_url: "https://api.siliconflow.cn/v1"
