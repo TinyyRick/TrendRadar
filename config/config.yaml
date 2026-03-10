@@ -229,7 +229,7 @@ ai_analysis:
 # ===============================================================
 ai_translation:
   enabled: true                    # 默认关闭，你可以手动改为 true
-  language: "English"
+  language: "Chinese"
   prompt_file: "ai_translation_prompt.txt"
 
 # ===============================================================
