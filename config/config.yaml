@@ -198,7 +198,7 @@ ai:
   model: "Pro/deepseek-ai/DeepSeek-V3"         
 
   # ⚠️ 根据你程序的反馈，这里必须保持完整路径
-  base_url: "https://api.siliconflow.cn/v1"
+  base_url: "https://api.siliconflow.cn/v1/chat/completions"
   
   timeout: 90                       # 请求超时（秒）
 
