@@ -198,7 +198,7 @@ ai:
   model: "Pro/zai-org/GLM-4.7"         
 
   # ⚠️ 根据你程序的反馈，这里必须保持完整路径
-  base_url: "https://api.siliconflow.cn/v1/chat/completions"
+  base_url: "https://api.siliconflow.cn/v1"
   
   timeout: 90                       # 请求超时（秒）
 
